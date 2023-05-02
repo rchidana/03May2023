@@ -1,5 +1,7 @@
 # Minikube & kubectl set-up on Ubuntu 20.04
 
+# PS: Lab machines have already been configured, all that is required for participants is to run this command -> minikube start
+
 ### Steps to Install Minukube to run Kubernetes Version 1.25.3 on Ubuntu 20.04
 
 Install latest stable Kubectl
@@ -41,7 +43,7 @@ sudo install minikube /usr/local/bin
 
 ```
 
-Start Minikube single node cluster by specifying docker Driver and with Kubernetes version v1.25.3
+Start Minikube single node cluster by specifying docker Driver and with latest Kubernetes version 
 ```
 minikube start --vm-driver=docker 
 ```
